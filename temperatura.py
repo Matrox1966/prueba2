@@ -4,5 +4,5 @@ sensor = W1ThermSensor()
 
 while True:
     temperature = sensor.get_temperature()
-    print("The temperature is %s celsius" % temperature)
+    print("La temperatura es en º % celsius" % temperature)
     time.sleep(3)
